@@ -1,0 +1,6 @@
+# 模型权重（约 1.60 GiB）：GitHub git 通道单文件上限 100 MB，无法入库。
+# 通过 GitHub Release 附件分发，见仓库 Releases 页面。
+*.pt
+
+# WorkBuddy 工作区元数据
+.workbuddy/
