@@ -1,6 +1,23 @@
-# 模型权重（约 1.60 GiB）：GitHub git 通道单文件上限 100 MB，无法入库。
-# 通过 GitHub Release 附件分发，见仓库 Releases 页面。
+# 模型权重与压缩包（GitHub git 单文件上限 100 MB，请通过 Release 附件分发）
 *.pt
+*.bin
+*.safetensors
+*.zip
+*.tar.gz
 
-# WorkBuddy 工作区元数据
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# 编辑器与系统元数据
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 .workbuddy/
+*.log
