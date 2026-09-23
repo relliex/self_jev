@@ -3,7 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/relliex/self_jev/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+  <a href="https://github.com/relliex/self_jev/blob/main/LICENSE"><img src="https://img.shields.io/badge/代码协议-MIT-blue.svg" alt="Code License"></a>
+  <a href="https://huggingface.co/Qwen"><img src="https://img.shields.io/badge/权重协议-Apache%202.0-green.svg" alt="Weights License"></a>
   <img src="https://img.shields.io/badge/Python-3.10%20~%203.13%20(实测%203.13.3)-blue.svg?logo=python" alt="Python">
   <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-2.6%2B%20(CUDA%2012.6%20%2F%2012.4)-ee4c2c.svg?logo=pytorch" alt="PyTorch"></a>
   <a href="https://huggingface.co/Qwen/Qwen3.5-0.8B-Base"><img src="https://img.shields.io/badge/底座模型-Qwen3.5--0.8B-green.svg" alt="Base Model"></a>
@@ -308,6 +309,16 @@ self_jev/
 
 ---
 
-## 📜 开源协议
+## 📜 开源协议、版权归属与社区伦理合规
 
-[MIT License](LICENSE)
+### 1. 双重许可协议（代码 vs 权重）
+- **源代码许可**：本项目包含的所有原创源代码、推理网关及文档均在 **[MIT 许可证](LICENSE)** 下发布，允许任何人自由学习、修改与集成。
+- **模型权重许可**：微调衍生的模型权重文件基于阿里巴巴千问团队的 **[Qwen3.5-0.8B-Base](https://huggingface.co/Qwen)** 底座，其权重使用严格遵循原底座的 **[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)** 许可证。使用者若分发或二次修改衍生权重，须一并遵守 Apache 2.0 的归属与版权要求。
+
+### 2. 致敬与开源致谢（Attribution）
+- **致敬 TypeSafe AI**：Jev 模型理念由 TypeSafe AI 团队提出。`self_jev` 纯属个人爱好者的独立学术验证与技术复刻探索（PoC），与 TypeSafe AI 官方无任何商业从属或背书关系。
+- **致谢阿里千问团队**：感谢阿里巴巴开源了高素质、多语言能力出色的 Qwen 系列轻量级底座，并赋予社区宽松友好的开源许可。
+- **致谢公开数据集研究团队**：感谢 Google Research（`BoolQ`）、艾伦人工智能研究所 AllenAI（`AI2 ARC`）以及纽约大学/GLUE 团队（`STS-B`）提供的经典基准评测数据集。
+
+### 3. 负责任的 AI 使用与免责声明
+本项目仅作为极轻量级（小样本）概念验证与思路分享，严禁用于任何高危、违法违规、侵犯隐私、自动化医疗诊断、法律金融判决等生命安全关键场景。模型输出的概率仅供决策参考，使用者应自行承担模型应用带来的所有风险与责任，作者不对由此产生的任何直接或间接后果承担法律责任。

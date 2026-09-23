@@ -3,7 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/relliex/self_jev/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+  <a href="https://github.com/relliex/self_jev/blob/main/LICENSE"><img src="https://img.shields.io/badge/Code%20License-MIT-blue.svg" alt="Code License"></a>
+  <a href="https://huggingface.co/Qwen"><img src="https://img.shields.io/badge/Weights%20License-Apache%202.0-green.svg" alt="Weights License"></a>
   <img src="https://img.shields.io/badge/Python-3.10%20~%203.13%20(Tested%20on%203.13.3)-blue.svg?logo=python" alt="Python">
   <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-2.6%2B%20(CUDA%2012.6%20%2F%2012.4)-ee4c2c.svg?logo=pytorch" alt="PyTorch"></a>
   <a href="https://huggingface.co/Qwen/Qwen3.5-0.8B-Base"><img src="https://img.shields.io/badge/Base%20Model-Qwen3.5--0.8B-green.svg" alt="Base Model"></a>
@@ -311,6 +312,19 @@ Feel free to open an issue or submit a pull request! ⭐ If this replication ide
 
 ---
 
-## 📜 License
+## 📜 License & Compliance
 
-[MIT License](LICENSE)
+### 1. Dual Licensing (Code vs. Weights)
+- **Source Code**: All original code, scripts, gateways, and documentation in this repository are released under the [MIT License](LICENSE).
+- **Model Checkpoints**: Any fine-tuned model checkpoints are derived from Alibaba Cloud's [Qwen3.5-0.8B-Base](https://huggingface.co/Qwen) and are distributed under the terms of the **[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)**. Users must adhere to the base model's open-source terms and licensing constraints.
+
+### 2. Attribution & Acknowledgments
+- **TypeSafe AI**: "Jev" is developed by TypeSafe AI. `self_jev` is an independent, open-source educational proof-of-concept (PoC) and is not affiliated with, sponsored by, or endorsed by TypeSafe AI.
+- **Alibaba Cloud Qwen Team**: We gratefully thank the Qwen team for open-sourcing the high-performance Qwen series under permissive licensing.
+- **Academic Benchmark Datasets**: We acknowledge the creators of the datasets used in this educational demonstration:
+  - `google/boolq` (Clark et al., Google Research)
+  - `allenai/ai2_arc` (Clark et al., Allen Institute for AI)
+  - `nyu-mll/glue (stsb)` (Wang et al., NYU / GLUE Consortium)
+
+### 3. Ethical & Responsible AI Use Disclaimer
+This project is an experimental demonstration trained on limited benchmark subsets. It is intended purely for research, architectural exploration, and educational exchange. It should **not** be deployed for high-stakes, safety-critical, legal, medical, or life-impacting decision-making without independent verification and human oversight. The author is not liable for any direct or indirect consequences arising from the use or misuse of this software or associated weights.
